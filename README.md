@@ -7,6 +7,8 @@ A key, for example, might be the string NQXPOMAFTRHLZGECYJIUWSKDVB. This 26-char
 A message like HELLO, then, would be encrypted as FOLLE, replacing each of the letters according to the mapping determined by the key.
 
 
+
+
  Example usage:
  
  $ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI
