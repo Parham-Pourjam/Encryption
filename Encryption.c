@@ -6,8 +6,6 @@
 
 int main(int argc, string argv[])
 {
-
-
     if (argc != 2)
     {
         printf("missing command-line argument\n");
@@ -41,7 +39,6 @@ int main(int argc, string argv[])
             printf("Bad\n");
             return 1;
         }
-
     }
 
     if (counter == 25)
@@ -71,8 +68,6 @@ int main(int argc, string argv[])
         {
             output[i] = s[i];
         }
-
-
     }
 
     printf("ciphertext: %s\n", output);
